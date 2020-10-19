@@ -1,10 +1,12 @@
-package com.panjikrisnayasa.moviecataloguesubmission3.view
+package com.panjikrisnayasa.moviecataloguesubmission3.adapter
 
 import android.content.Context
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.FragmentManager
 import androidx.fragment.app.FragmentStatePagerAdapter
 import com.panjikrisnayasa.moviecataloguesubmission3.R
+import com.panjikrisnayasa.moviecataloguesubmission3.view.MoviesFragment
+import com.panjikrisnayasa.moviecataloguesubmission3.view.TVShowsFragment
 
 class ViewPagerAdapter(fm: FragmentManager, context: Context) :
     FragmentStatePagerAdapter(fm, BEHAVIOR_RESUME_ONLY_CURRENT_FRAGMENT) {
